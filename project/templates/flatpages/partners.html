@@ -1,0 +1,11 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h3>Тут две одинаковые строчки</h3>
+{{ flatpage.content }}
+<p>{{ flatpage.content }}</p>
+{% endblock content %}
